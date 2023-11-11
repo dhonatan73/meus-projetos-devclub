@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  
+  }
+    
+  body{
+  
+    background: url("https://source.unsplash.com/1600x900/?landscape"); /*colocar um wallpaper de fliperama */
+    background-size: cover; /* estica a imagem*/
+    display: flex; /*libera uns super-poderes*/
+    justify-content: center; /*centralizar na horizontal*/
+    align-items: center; /*centraliza na vertical*/
+    min-height: 100vh; /* falo a altura minima que ele tem que pegar na tela, nesse caso a tela toda*/
+  } 
+  
+  .container{
+  
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .buttons{
+    margin-top: 30px 0;
+    display: flex; /*libera o gap*/
+    gap: 30px; /*esáçamento entre os butões*/
+  
+  }
+  
+  
+  button{
+  padding: 10px;
+  font-size: 50px;
+  cursor:pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out; /*aplicando uma transição 0,5 tenha um delay*/
+  
+  }
+  
+  button:hover {
+  
+    opacity: 0.7;
+  }
+  
+  
+  
+  #rock{
+    background-color: #a200ff
+  }
+  
+  #paper{
+    background-color: #9ee01a
+  }
+  
+  #scissors{
+    background-color: #7dbeed
+  }
+  
+  h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .your-score span {
+  
+  color:rgb(77, 128, 216);
+  }
+  
+  .machine-score span{
+    color: rgb(224, 71, 15);
+  }

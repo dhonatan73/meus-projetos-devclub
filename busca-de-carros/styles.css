@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(https://media.istockphoto.com/id/504133748/pt/foto/turva-autom%C3%B3veis-novos-revendedor-local.jpg?b=1&s=612x612&w=0&k=20&c=Ls3HPNz7rbgAYJ4OvUNA16Y-A2vUot8FXqf-eicN2-g=);
+    background-attachment: fixed;
+    background-size: 1920px 1200px;
+  }
+  
+  header {
+    margin: 15px auto;
+    width: 90%;
+    height: 80px;
+    background-color: #ffa500;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    margin-bottom: -30px;
+    background-color: #008b8b;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  input {
+    border: none;
+    outline: none; /* borda do input*/
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #00ff99;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  button:hover {
+    background-color: #90ee90;
+  }
+  
+  button:active {
+    background-color: #b3f0b3;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+  }
+  
+  img {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 500px;
+  }
+  

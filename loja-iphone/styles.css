@@ -1,0 +1,170 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.caixa-roxa {
+
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center; /* alinhar center*/
+    border-bottom: 1px solid #d3d3d3;
+    
+   
+}
+
+ul {
+display: flex;
+gap: 100px;
+list-style: none;   /* espeçamento da ul todos */
+margin-left: 100px;
+
+}
+
+li {font-size: 12px;
+    font-weight: 400;
+    color: #373737;
+    cursor: pointer;
+
+}
+
+
+.logo {
+    height:20px ;
+    cursor: pointer;
+}
+
+
+.caixa-azul {
+display: flex;
+padding: 40px;
+justify-items: space-between;
+align-items: center;
+
+}
+
+.titulo-iphone {
+
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.titulo-secundario {
+
+font-size: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+
+}
+
+.paragrafo {
+
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.preco {
+
+font-size:20px;
+color: #626262;
+font-weight: 100;
+margin-bottom: 30px;
+}
+
+.botao {
+background-color: #0071e3;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.escolher {
+
+    width:40px;
+    height: 40px;
+    border-radius: 50px ;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.azul {background-color: #81a5c4;}
+
+.amarelo { background-color: #f7da47;
+}
+
+.branco { background-color: #c1c1c1;}
+
+.preto { background-color: #272d33;}
+ 
+
+.vermelho {background-color: #b50012;}
+
+
+.roxo { background-color: #7d5b8c ;}
+
+
+.escolha-cor {
+
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700px;
+    margin-top:50px;
+    margin-bottom: 15px;
+}
+
+.iphone {
+    margin-top: 70px;
+    width: 450px;
+    margin-left: 700px;
+    z-index: 99;
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute; /* deixar ele absolutamente onde quero */
+    top: 0;
+    left: 0;
+    clip-path: circle(700px at right 1100px);   /* bolo*/
+
+}
+
+@media screen and (max-width:1600px) {
+
+    .iphone {
+
+        width: 370px;
+        margin-left: 350px;
+        z-index: 99;
+    }
+    
+    .circulo {
+        width: 100%;
+        height: 100%;
+        background: #81a5c4;
+        position: absolute; /* deixar ele absolutamente onde quero */
+        top: 0;
+        left: 0;
+        clip-path: circle(700px at right 1000px);
+    }
+
+    .caixa-azul {
+        display: flex;
+        padding: 25px;
+        justify-items: space-between;
+        align-items: center;
+    }
+
+}

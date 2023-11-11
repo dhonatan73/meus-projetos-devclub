@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32"  href="https://cdn.icon-icons.com/icons2/83/PNG/512/germany_15792.png">
+    <script defer src="./scripts.js"></script>
+    <title>LeMans - Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<header>
+
+
+    <ul>
+            <li onclick="mostrarCores('volkswagem')" >Volkswagem</li> <img class="logo vw" src="./img/logo-vw.png" alt="logo-vw">
+            <li id="alterar-audi" onclick="mostrarCores('audi')" >Audi</li><img class="logo audi" src="./img/audi-logo2.png" alt="audi-logo">
+            <li onclick="mostrarCores('bmw')" >BMW</li><img class="logo bmw2" src="./img/logo-bmw.png" alt="bmw-logo">
+
+    </ul>
+
+</header>
+
+<div class="caixa-esquerda" > 
+
+    <h1>O carro da sua vida....</h1>
+    <h2>O mais sofisticado de todos os tempos</h2>
+    <p class="texto-cor" >As cores mais chamativas da atualidade</p>
+
+    <h3 class="texto-preco" >Com o preço de melhor carro da categoria</h3>
+    <p class="texto-preco" ><span id="preco" ></span></p>
+</div>
+
+
+
+<div class="caixa-botoes">
+<p class="texto-cor" >Disponível nas cores:</p>
+<div id="volkswagem" >
+<button onclick="alterarImagem('./img/GTi-Preto.png')" id="cor_preto" class="cor_preto botao"></button>
+<button onclick="alterarImagem('./img/GTi-Azul.png')" id="cor_azul" class="cor_azul botao"></button>
+<button onclick="alterarImagem('./img/GTi-Vermelho.png')" id="cor_vermelho" class="cor_vermelho botao"></button>
+<button onclick="alterarImagem('./img/GTi-Cinza.png')" id="cor_cinza" class="cor_cinza botao"></button>
+<!--<img class="imagem-carro" id="trocaFoto" src="./img/GTi-Cinza.png" alt="carro-image">-->
+</div>
+</div>
+
+<div id="audi" style="display: none;" >
+<button onclick="alterarImagem('./img/A3-Preto.png')"  class="cor_preto botao"></button>
+<button onclick="alterarImagem('./img/A3-Amarelo.png')" class="cor_amarelo botao" ></button>
+<button onclick="alterarImagem('./img/A3-Brancored.png')"  class="cor_branco botao" ></button>
+<!-- <img class="imagem-carro" id="trocaFoto" src="./img/A3-Branco.png" alt="carro-image"> -->
+</div>
+
+<div id="bmw" style="display: none;" >
+    <button onclick="alterarImagem('./img/M3-Branca.png')"  class="cor_branco botao"></button>
+    <button onclick="alterarImagem('./img/M3-Amarela.png')" class="cor_amarelo botao" ></button>
+    <button onclick="alterarImagem('./img/M3-Azul.png')"  class="cor_azul botao" ></button>
+    <!-- <img class="imagem-carro" id="trocaFoto" src="./img/A3-Branco.png" alt="carro-image"> -->
+    </div>
+
+
+<a id="linkSite" href="" target="_blank" > <button class="botao-comprar" >Comprar Agora</button></a>
+
+<img class="imagem-carro" id="trocaFoto" src="https://www.crankandpiston.com/media/2016/07/VW-GTI-vs-Audi-RS3-vs-Mercedes-AMG-A45-crankandpiston-Wallpapers-6.jpg" alt="carro-image" style="border-radius: 70px;"  >
+
+</body>
+</html>

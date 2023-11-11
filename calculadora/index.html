@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="script.js"></script>
+    <title>Dev Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <p id="display-result">Resultado Aqui</p>
+      <div class="buttons">
+        <div class="buttons1">
+          <button onclick="cliquei('1')">1</button>
+          <button onclick="cliquei('2')">2</button>
+          <button onclick="cliquei('3')">3</button>
+        </div>
+        <div class="buttons2">
+          <button onclick="cliquei('4')">4</button>
+          <button onclick="cliquei('5')">5</button>
+          <button onclick="cliquei('6')">6</button>
+        </div>
+        <div class="buttons3">
+          <button onclick="cliquei('7')">7</button>
+          <button onclick="cliquei('8')">8</button>
+          <button onclick="cliquei('9')">9</button>
+          
+        </div>
+
+        <div class="buttons4" >
+          <button class="zero" onclick="cliquei('0')">0</button>
+          <button class="erace-c" onclick="eraceC('')"">C</button>
+          <button class="erace-ce" onclick="eraceCE('')">CE</button>
+        </div>
+
+        <div class="simbols">
+          <button onclick="cliquei('+')" >+</button>
+          <button onclick="cliquei('-')" >-</button>
+          <button onclick="cliquei('÷')" >÷</button>
+          <button onclick="cliquei('X')" >X</button>
+          <button onclick="calcular()" id="equal-sign">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>

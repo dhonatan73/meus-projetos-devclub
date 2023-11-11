@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<meta http-equiv="refresh" content="1" /> >-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./script.js"></script>
+    <title>Dev Calculator Pro</title>
+    <link rel="stylesheet" href="./styles.css" />
+    
+  </head>
+  <body>
+    <div>
+      <input class="display" />
+      <!-- ctrl + shift + L para selecionar tudo de uma vex :)-->
+      <button class="gray-button" onclick="limpaTela()">AC</button>
+      <button class="gray-button" onclick="inverterNumero()">+/-</button>
+      <button class="blue-button" onclick="adicionarCaracter('/')">/</button>
+      <button class="blue-button" onclick="adicionarCaracter('*')">*</button>
+      <button class="black-button" onclick="adicionarCaracter('7')">7</button>
+      <button class="black-button" onclick="adicionarCaracter('8')">8</button>
+      <button class="black-button" onclick="adicionarCaracter('9')">9</button>
+      <button class="blue-button" onclick="adicionarCaracter('-')">-</button>
+      <button class="black-button" onclick="adicionarCaracter('4')">4</button>
+      <button class="black-button" onclick="adicionarCaracter('5')">5</button>
+      <button class="black-button" onclick="adicionarCaracter('6')">6</button>
+      <button class="blue-button" onclick="adicionarCaracter('+')">+</button>
+      <button class="black-button" onclick="adicionarCaracter('1')">1</button>
+      <button class="black-button" onclick="adicionarCaracter('2')">2</button>
+      <button class="black-button" onclick="adicionarCaracter('3')">3</button>
+      <button class="blue-button" onclick="porcetagem()">%</button>
+      <button class="equal-button equal" onclick="calcular()">=</button>
+      <button class="black-button zero" onclick="adicionarCaracter('0')">
+        0
+      </button>
+      <button class="black-button" onclick="adicionarCaracter('.')">.</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script defer src="./script.js"></script>
+    <title>DevClub JokenPô</title>
+    <link rel="stylesheet" href="./styles.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <h1>JokenPô</h1>
+
+      <div class="buttons">
+      <button id="rock" onclick="playHuman('Pedra')" >&#x1F44A</button>
+      <button id="paper" onclick="playHuman('Papel')"  >&#x1f590</button>
+      <button id="scissors" onclick="playHuman('Tesoura')" >&#x270c</button>
+      </div>
+
+      <h2 class="human-shot"></h2>
+      <h2 class="machine-shot"></h2>
+      <p class="result" ></p>
+
+      <p class="your-score" >Sua Pontuação: <span id="human-score">0</span></p>
+      <p class="machine-score" >Pontuação da Alexa: <span id="machine-score">0</span></p>
+    </div>
+  </body>
+  </html>
