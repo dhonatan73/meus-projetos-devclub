@@ -21,10 +21,10 @@ body {
 }
 
 main {
-    width: 375px;
+    width: 500px;
     background: #f4f4f4;
     border-radius: 20px;
-    margin: 0 auto 40px;
+    margin: 100px auto;
     padding: 44px 24px 23px;
 }
 
@@ -104,14 +104,23 @@ section {
 
 .currency-value, .currency-value-to-convert {
 color: #777777;
-font-size: 14px;
+font-size: 20px;
 font-weight: 700;
 font: bolder;
 }
 
+.currency-cotation, .date-cotation{
+    margin-top: 15px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 700;
+    font: bolder;
+    text-align: center;
+    }
+
 .currency {
     color: #777777;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     font: bolder;
 }
